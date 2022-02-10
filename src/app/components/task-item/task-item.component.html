@@ -1,0 +1,9 @@
+<div 
+[ngClass] = "{reminder :  task.reminder}" 
+class="task-item"
+(dblclick) = "onToggle(task)"
+>
+
+    <h2>{{task.text}}</h2>
+    <button (click) = "onDelete(task)">Excluir</button>
+</div>

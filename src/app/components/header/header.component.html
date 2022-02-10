@@ -1,0 +1,11 @@
+<div class="header">
+    <div class="inner-header">
+        <h1>TASKIS</h1>
+        <h1><a routerLink = "/about">ABOUT</a></h1>
+        <app-button 
+        color = "{{showAddTask ? 'red' : 'green'}}" 
+        text = "{{showAddTask ? 'Close' : 'Add'}}"  
+        (buttonClick) = "toogleAddTask()"
+         ></app-button>
+    </div>
+</div>

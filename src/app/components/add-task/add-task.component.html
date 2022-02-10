@@ -1,0 +1,6 @@
+<form  *ngIf = "showAddTask" class="add-task" (ngSubmit) = "onSubmit()">
+
+    <input type="text" name = "text" [(ngModel)] = "text">
+    <input type="submit" value = "Add task">
+    {{text}}
+</form>
