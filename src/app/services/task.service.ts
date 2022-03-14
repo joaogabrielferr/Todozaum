@@ -24,6 +24,7 @@ export class TaskService {
   
   private message:string = "testando o git flow";
   private message2:string = "criando feature add-mensagem";
+  private message3:string = "criado pela hotfix";
 
   constructor(private http: HttpClient) { }
 
