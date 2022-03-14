@@ -21,6 +21,9 @@ const httpOptions = {
 export class TaskService {
 
   private apiUrl = "http://localhost:5000/tasks";
+  
+  private message:string = "testando o git flow";
+  private message2:string = "criando feature add-mensagem";
 
   constructor(private http: HttpClient) { }
 
